@@ -42,7 +42,7 @@ The following step is to create a Rails controller for a route to home page.
 This is nothing special, a common Rails controller generation.
 
 ```bash
-% rails g cotroller pages home
+% rails g controller pages home
 ```
 
 Then, edit `app/views/pages/home.html.erb`  and `config/routes.rb` to
@@ -76,7 +76,7 @@ ReactJS code.
 ```
 
 For a speedy sample development, the react-redux counter application was copied from what
-`yarn create-react-app my-app --template redux-typescript` command created.
+`yarn create react-app my-app --template redux-typescript` command created.
 
 
 ### package.json update
