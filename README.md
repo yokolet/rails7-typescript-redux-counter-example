@@ -122,3 +122,9 @@ One more stylesheet_link_tag was added to `app/views/layouts/application.html.er
 
 As defined in `Procfile.dev`, we need to startup two servers.
 The command for that is `bin/dev`.
+
+
+### Blog Post
+
+The blog post about this app:
+[Rails 7 React/Redux Development with esbuild](https://yokolet.com/2023/05/23/rails-7-react-redux-development-with-esbuild.html)
