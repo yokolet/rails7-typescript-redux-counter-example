@@ -9,7 +9,7 @@ import { store } from '../app/store';
 export default class extends Controller {
   connect() {
     console.log('React connected');
-    const container = document.getElementById("app");
+    const container = document.getElementById('root');
     const root = createRoot(container);
 
     root.render(
@@ -18,6 +18,6 @@ export default class extends Controller {
           <App />
         </Provider>
       </React.StrictMode>
-    )
+    );
   }
 }

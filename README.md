@@ -9,7 +9,7 @@ Versions
 ### Rails 7 and esbuild
 
 Rails 7 has the `-j | --javascript` option to choose the way to build JavaScript application.
-The choices are importmap (default), webpack, esbuild adn rollup.
+The choices are importmap (default), webpack, esbuild and rollup.
 Since the webpack has been retired, the popular choice would be importmap or esbuild.
 The application here chose [esbuild](https://esbuild.github.io/), which is commonly used in JavaScript world.
 The esbuild itself is written in Go-lang and known to run fast.
@@ -34,7 +34,7 @@ The next step is to create an entry point for the ReactJS app.
 ```
 
 Above generates `app/javascript/controllers/react_controller.rb`.
-The controller is equivalent to index.ts(js) for a React application.
+The controller is equivalent to index.tsx(jsx) for a React application.
 In the `connect` method, we can write exactly the same code as React app's index.ts(js).
 
 
